@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* height: 100%; */
+
+}
+
+.App {
+  text-align: center;
+  /* margin-top: 5px; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-mode {
+  background-color: black;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: black;
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin: 20px;
+}
